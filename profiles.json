@@ -1,0 +1,9 @@
+[
+  {
+    "Name": "AC1999",
+    "GamePath": "C:\\AC1999\\client.exe",
+    "Host": "ac1999.cobradragon.com",
+    "Port": "9110",
+    "UseDatabase": true
+  }
+]

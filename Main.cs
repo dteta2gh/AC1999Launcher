@@ -14,7 +14,19 @@ namespace AC1999Launcher
         {
             InitializeComponent();
 
+            this.Text = $"AC1999 Launcher - v{AppVersion.Version}";
+
             LoadProfiles();
+        }
+
+        public static class AppVersion
+        {
+            // v1.0.0 — Initial AC1999 Launcher release
+            //           First public release.
+            //           Supports server profiles, account login,
+            //           AC1999 client launching, and -db option.
+
+            public const string Version = "1.0.0";
         }
 
         // ------------------------------------------------------------
